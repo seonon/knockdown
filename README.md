@@ -10,7 +10,7 @@
 ### 界面
 
 ![Home](https://raw.githubusercontent.com/seonon/knockdown/master/doc/images/home.PNG)
-![Picture Support](dhttps://raw.githubusercontent.com/seonon/knockdown/master/doc/images/picture.PNG)
+![Picture Support](https://raw.githubusercontent.com/seonon/knockdown/master/doc/images/picture.PNG)
 ![Favorite](https://raw.githubusercontent.com/seonon/knockdown/master/doc/images/favorite.PNG)
 
 ### 特性

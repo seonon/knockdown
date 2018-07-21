@@ -1,0 +1,6 @@
+<!--pages/about/about.wxml-->
+<view class="container">
+  <view class="title">About</view>
+  <view class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi officia explicabo perferendis ex error officiis illo cupiditate pariatur. In quaerat enim harum officia commodi ratione facilis aperiam maiores eligendi libero.</view>
+  <view class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore, quasi rem a quas perspiciatis sequi dignissimos autem ipsam quidem fuga nemo id odit tempora similique porro obcaecati quisquam perferendis!</view>
+</view>

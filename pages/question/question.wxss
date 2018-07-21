@@ -1,0 +1,78 @@
+/* pages/sequence/sequence.wxss */
+page{
+  min-height:100%;
+}
+.container{
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  padding: 0 0 140rpx 0;
+}
+
+.title{
+  margin: 20rpx;
+  color: antiquewhite;
+  text-align: center;
+
+}
+
+.question{
+  color: antiquewhite;
+  margin: 40rpx 20rpx;
+}
+
+.option {
+  min-width: 500rpx;
+  border-radius: 30rpx;
+  border: solid white 8rpx;
+  margin: 30rpx;
+}
+
+
+.icon{
+  padding: 26rpx;
+  width: 48rpx;
+  height: 48rpx;
+}
+.favorate{
+  position: fixed;
+  border-radius: 50rpx;
+  bottom: 110rpx;
+  right: 10rpx;
+  width: 100rpx;
+  height: 100rpx;
+  background-color: whitesmoke;
+}
+
+.footer{
+  box-sizing: border-box;
+  border-top: 2rpx solid gray;
+  background-color: #2E4A62; 
+  color: #DAF7A6;
+  position: fixed;
+  bottom: 0;
+  width: 750rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.btn{
+  background-color: #2E4A62; 
+  border: 1rpx solid #2E4A62;
+  color: #F0EDE5;
+  width: 300rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+/* 去除button的边框 */
+.btn::after{
+  border: none;
+}
+
+
+

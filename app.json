@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/question/question",
+    "pages/about/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2E4A62",
+    "navigationBarTitleText": "KnockDown",
+    "navigationBarTextStyle":"white"
+  }
+}

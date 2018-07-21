@@ -1,0 +1,39 @@
+/**index.wxss**/
+.container{
+  height: 100%;
+}
+
+.type-btn{
+  min-width: 500rpx;
+  border-radius: 30rpx;
+  border: solid #B4B7BA 8rpx;
+  margin: 30rpx;
+}
+
+.right-footer{
+  background-color: #F0EDE5;
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 32rpx;
+  position: fixed;
+  right: 10rpx;
+  bottom: 10rpx;
+  color: #2D3A3A;
+  line-height: 64rpx;
+  font-size: 48rpx;
+  text-align: center;
+}
+
+.left-footer{
+  background-color: #aaa;
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 32rpx;
+  position: fixed;
+  left: 10rpx;
+  bottom: 10rpx;
+  color: whitesmoke;
+  line-height: 64rpx;
+  font-size: 48rpx;
+  text-align: center;
+}

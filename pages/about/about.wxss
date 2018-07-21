@@ -1,0 +1,18 @@
+/* pages/about/about.wxss *//**index.wxss**/
+
+page{height:100%}
+.container{
+  /* background-color: #151331; */
+  padding: 100rpx;
+  height: 100%;
+  color: gray;
+  justify-content: start;
+}
+
+.title{
+  margin-bottom: 40rpx;
+}
+
+.paragraph{
+  margin-top: 20rpx;
+}

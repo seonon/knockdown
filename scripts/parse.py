@@ -28,7 +28,8 @@ def main(filename, output, answer_sheet=None):
 		for line in f:
 			if startofquestion.match(line):
 				if buffer:
-
+					if answer_sheet:
+						answer = answers[idx]
 					question = parse(questionreobj, buffer, answer)
 					idx+=1
 					if question:

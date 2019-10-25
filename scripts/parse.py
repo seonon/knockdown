@@ -6,7 +6,7 @@ questionreobj_withoutanswer = re.compile('\s*(\d+)[\.,，。\s]+(.+?)(?:<picture
 optionsreobj = re.compile('([A-Z])[.,，。\s]+(.+?)(?:\s*)(?:(?=[A-Z][\.,，。\s]+)|$)')
 answerreobj = re.compile('[A-Z]')
 
-startofquestion = re.compile('\s*(\d+)[\.,，。\s]*')
+startofquestion = re.compile('^\s*(\d+)[\.,，。\s]*')
 def main(filename, output, answer_sheet=None):
 	if answer_sheet:
 		questionreobj = questionreobj_withoutanswer
@@ -20,14 +20,15 @@ def main(filename, output, answer_sheet=None):
 
 	idx = 0
 	with io.open(filename) as f:
+		answer = None
+		if answer_sheet:
+			answer = answers[idx]
+
 		buffer = ''
 		for line in f:
 			if startofquestion.match(line):
 				if buffer:
-					if answer_sheet:
-						answer = answers[idx]
-					else:
-						answer = None
+
 					question = parse(questionreobj, buffer, answer)
 					idx+=1
 					if question:
